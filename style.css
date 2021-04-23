@@ -5,17 +5,29 @@
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: Varela Round, sans-serif; 
+}
+header{
+    background-color: LightCyan;
+    font-size:20px;
+    text-align: center;
 }
 header, section {
     padding: 20px;
+    
+    
+}
+section{
+    background-color:#e8dbff;
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color:#e8dbff;
+    
     padding-top: 40px;
     padding-bottom: 40px;
+    
 }

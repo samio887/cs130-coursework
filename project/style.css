@@ -1,0 +1,34 @@
+/* You're welcome to change any of this! */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Varela Round, sans-serif;
+    text-align: center; 
+}
+header{
+    background-color: LightCyan;
+    font-size:20px;
+    text-align: center;
+}
+header, section {
+    padding: 20px;
+    
+    
+}
+section{
+    background-color:#e8dbff;
+}
+p, li {
+    line-height: 1.5em;
+}
+
+#inspiration {
+    background-color:#e8dbff;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}

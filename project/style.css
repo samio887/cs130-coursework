@@ -3,18 +3,18 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     margin: 0px;
     font-family: Varela Round, sans-serif;
     text-align: center; 
-}
-header{
+} */
+/* header{
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     text-align: left;
     font-size: 30px;
-   
+    */
 }
 header, section {
      padding: 10px; 
@@ -533,7 +533,7 @@ opacity: 0;
 	padding: 50px 0 100px 0;
 }
 #team .icon {
-	font-size: 26px;
+	font-size: 36px;
 }
 /* Skills Section
 ********************************************************************* */
@@ -601,15 +601,58 @@ opacity: 0;
 /* Portfolio Section
 ********************************************************************* */
 #portfolio {
-	padding: 100px 0 100px 0;
+	padding: 10px 0 10px 0;
+	
+	
 }
 .image {
 	background-color: #5a5a5a;
-	width: 100%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+	width: 250px;
+	height: 250px;
+	margin-left: 1px;
+	margin-right: 1px;
 	transition: .5s;
+	/* size: large; */
+	align-items: center;
+	border-radius: 8px;
+	
+}
+.image:hover {
+	opacity: 0.6;
+	transition: .3s;
+	background-image: url(../images/hoverbg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#past {
+	padding: 10px 0 10px 0;
+	
+	
+}
+.i {
+	
+	width: 500px;
+	height: 500px;
+	margin-left: 1px;
+	margin-right: 1px;
+	transition: .5s;
+	/* size: large; */
+	align-items: center;
+	border-radius: 8px;
+	transform: rotate(90deg);
+	
+}
+.in {
+	
+	width: 500px;
+	height: 500px;
+	margin-left: 320px;
+	margin-right: 1px;
+	transition: .5s;
+	/* size: large; */
+	border-radius: 8px;
+	
 }
 .image:hover {
 	opacity: 0.6;
@@ -682,6 +725,7 @@ input[type="submit"]:hover {
 /* Footer Section
 ********************************************************************* */
 footer {
+	font-size: 20px;
 	min-height: 120px;
 	padding: 40px 0 40px 0;
 	background: #e55d87;
@@ -690,14 +734,19 @@ footer {
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
 	box-sizing: border-box;
+	text-align: left;
 }
 footer p {
 	color: #FFFFFF;
-	margin: 20px 0 0 0;
+	margin: 0 0 0 0;
 }
 .socialIcons {
 	font-size: 20px;
 	color: rgba(255, 255, 255, 0.7);
+}
+footer i{
+    margin-left: 50px;
+	font-size: 20px;
 }
 /* Lists
 ********************************************************************* */

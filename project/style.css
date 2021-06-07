@@ -647,13 +647,22 @@ opacity: 0;
 }
 .in {
 	
-	width: 500px;
+	/* width: 500px;
 	height: 500px;
 	align-items: center;
 	margin-bottom: 50px;
 	margin-right: 1px;
 	transition: .5s;
 	/* size: large; */
+	/* border-radius: 8px;  */
+	width: 500px;
+	height: 500px;
+	margin-left: 1px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	transition: .5s;
+	/* size: large; */
+	align-items: center;
 	border-radius: 8px;
 	
 }

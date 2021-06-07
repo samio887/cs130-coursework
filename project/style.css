@@ -629,13 +629,15 @@ opacity: 0;
 	padding: 10px 0 10px 0;
 	
 	
+	
 }
 .i {
 	
 	width: 500px;
 	height: 500px;
 	margin-left: 1px;
-	margin-right: 1px;
+	margin-right: 300px;
+	margin-bottom: 10px;
 	transition: .5s;
 	/* size: large; */
 	align-items: center;
@@ -647,7 +649,8 @@ opacity: 0;
 	
 	width: 500px;
 	height: 500px;
-	margin-left: 320px;
+	align-items: center;
+	margin-bottom: 50px;
 	margin-right: 1px;
 	transition: .5s;
 	/* size: large; */

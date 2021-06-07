@@ -655,6 +655,7 @@ opacity: 0;
 	transition: .5s;
 	/* size: large; */
 	/* border-radius: 8px;  */
+	border-radius: 8px;
 	width: 500px;
 	height: 500px;
 	margin-left: 10px;
